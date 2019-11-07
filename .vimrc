@@ -1,4 +1,6 @@
-source $VIMRUNTIME/defaults.vim
+if filereadable("$VIMRUNTIME/defaults.vim")
+    source $VIMRUNTIME/defaults.vim
+endif
 
 set shiftwidth=4
 set softtabstop=4
